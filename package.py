@@ -57,30 +57,30 @@ if "PACKAGE" == hello:
           
          print("sorry you don't qualify for a discount")
          
-         if "efficiency" == question:
-          question2 = int(input("How many items would you want ? "))
-         
-          Discount1 = 0.15
-          Percentage1 = "{:.0%}".format(Discount1)
-      
-          Discount2 = 0.20
-          Percentage2 = "{:.0%}".format(Discount2)
-      
-          Discount3= 0.35
-          Percentage3 = "{:.0%}".format(Discount3)
-      
-          if 10 <= question2 <= 29:
-            print("you get a discount of", Percentage1)
-       
-          elif 30 <= question2 <= 39:
-            print("you get a discount of", Percentage2)
-          
-          elif 40 <= question2 <= 50:
-            print("you get a discount of", Percentage3)
-        
-          elif 1 <= question2 <= 9:
-          
-           print("sorry you don't qualify for a discount")
+    if "efficiency" == question:
+      question2 = int(input("How many items would you want ? "))
+
+      Discount1 = 0.15
+      Percentage1 = "{:.0%}".format(Discount1)
+
+      Discount2 = 0.20
+      Percentage2 = "{:.0%}".format(Discount2)
+
+      Discount3= 0.35
+      Percentage3 = "{:.0%}".format(Discount3)
+
+      if 10 <= question2 <= 29:
+        print("you get a discount of", Percentage1)
+
+      elif 30 <= question2 <= 39:
+        print("you get a discount of", Percentage2)
+
+      elif 40 <= question2 <= 50:
+        print("you get a discount of", Percentage3)
+
+      elif 1 <= question2 <= 9:
+
+       print("sorry you don't qualify for a discount")
     
 else:
    print("Sorry your answer is not package...Goodbye!")
